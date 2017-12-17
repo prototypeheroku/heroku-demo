@@ -1,0 +1,14 @@
+{
+  "buildpacks": [
+      "url": "https://github.com/heroku/node-js-getting-started.git"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "gem install rubocop",
+        "test": "rubocop ."
+      }
+    }
+  }
+}
