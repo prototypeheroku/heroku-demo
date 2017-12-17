@@ -1,2 +1,2 @@
-Test heroic-ci
+Test heroku-ci
 66
